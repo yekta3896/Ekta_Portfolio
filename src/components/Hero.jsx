@@ -18,7 +18,6 @@ const Hero = () => {
   // Typewriter effect
   useEffect(() => {
     const current = ROLES[roleIndex];
-    let i = typing ? displayed.length : displayed.length;
 
     if (typing) {
       if (displayed.length < current.length) {
